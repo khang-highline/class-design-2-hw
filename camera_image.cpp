@@ -166,15 +166,15 @@ bool Camera_image::is_flash_enabled() const
 std::ostream& operator<<(std::ostream& out, const Camera_image& image)
 {
 	out << "File Name: " << image.get_filename() << '\n'
-	     << "Image Type: " << image.get_type() << '\n'
-	     << "Date Created: " << image.get_date() << '\n'
-	     << "Size (MB): " << image.get_size() << '\n'
-	     << "Author Name: " << image.get_author_name() << '\n'
-	     << "Image Dimensions: " << image.get_dimension() << '\n'
-	     << "Aperture Size: " << image.get_aperture_size() << '\n'
-	     << "Exposure time: " << image.get_exposure_time() << '\n'
-	     << "ISO value: " << image.get_iso_value() << '\n'
-	     << "Flash enabled: ";
+	    << "Image Type: " << image.get_type() << '\n'
+	    << "Date Created: " << image.get_date() << '\n'
+	    << "Size (MB): " << image.get_size() << '\n'
+	    << "Author Name: " << image.get_author_name() << '\n'
+	    << "Image Dimensions: " << image.get_dimension() << '\n'
+	    << "Aperture Size: " << image.get_aperture_size() << '\n'
+	    << "Exposure time: " << image.get_exposure_time() << '\n'
+	    << "ISO value: " << image.get_iso_value() << '\n'
+	    << "Flash enabled: ";
 	if (image.is_flash_enabled())
 		out << "true\n";
 	else
