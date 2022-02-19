@@ -65,7 +65,6 @@ void run_section_b()
 	std::cout << image3;
 }
 
-// Add a function called `processOrder` to the _store_ class that takes a const reference to an _order_ object. This function should remove all the items in the order from the store. For example, if I have a store with 5 books and 3 colored pencils and an order for 2 books and 1 colored pencil. The result of this function should be that the store now contains 3 books and 2 colored pencils.
 void run_section_c()
 {
 	Item book {"Book", 1, 25, 5};
