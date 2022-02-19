@@ -82,5 +82,5 @@ void run_section_c()
 	store.processOrder(order);
 	std::cout << "After processing the order:\n";
 	std::cout << store;
-	std::cout << "\nTotal price:" << order.get_total_price() << '\n';
+	std::cout << "\nTotal price: " << order.get_total_price() << '\n';
 }
