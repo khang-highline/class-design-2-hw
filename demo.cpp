@@ -26,10 +26,6 @@ int main()
 void run_section_a()
 {
 	Web_url url {"https://example.com/about-us/"};
-	std::cout << "url = " << url.get_url() << '\n';
-	std::cout << "scheme = " << url.get_scheme() << '\n';
-	std::cout << "authority = " << url.get_authority() << '\n';
-	std::cout << "path = " << url.get_path() << '\n';
 	std::cout << url;
 }
 

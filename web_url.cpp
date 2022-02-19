@@ -50,9 +50,9 @@ std::string Web_url::get_path() const
 
 std::ostream& operator<<(std::ostream& out, const Web_url& url)
 {
-	out << "url = " << url.get_url() << '\n'
-	    << "scheme = " << url.get_scheme() << '\n'
-	    << "authority = " << url.get_authority() << '\n'
-	    << "path = " << url.get_path() << '\n';
+	out << "URL: " << url.get_url() << '\n'
+	    << "    SCHEME: " << url.get_scheme() << '\n'
+	    << "    AUTHORITY: " << url.get_authority() << '\n'
+	    << "    PATH: " << url.get_path() << '\n';
 	return out;
 }
